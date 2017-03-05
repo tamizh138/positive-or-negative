@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int no;
+cout<<"\nenter the number you want check";
+cin>>no;
+if(no>0)
+{
+cout<<no<<"is a positive number";
+}
+elseif(no<0)
+{
+cout<<no<<"is a negative number";
+}
+else
+{
+cout<<no<<"it is zero";
+}
+getch();
+}
